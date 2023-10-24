@@ -1,0 +1,75 @@
+/* styleR.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f1f8fc; /* Warna latar belakang biru muda */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #312f3a; /* Warna teks judul */
+}
+
+form {
+    text-align: center;
+}
+
+.form-label {
+    color: #312f3a; /* Warna teks label */
+}
+
+.form-control {
+    border: 1px solid #919191; /* Warna border input */
+    border-radius: 6px;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.form-control:focus {
+    border-color: #64bcf4; /* Warna border input saat fokus */
+    box-shadow: 0 0 5px #64bcf4; /* Efek bayangan saat fokus */
+}
+
+.btn-primary {
+    background-color: #64bcf4; /* Warna tombol Register */
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #5bacdf; /* Warna tombol saat dihover */
+    transform: scale(1.05);
+}
+
+.btn-primary:focus {
+    outline: none;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #312f3a; /* Warna teks paragraf */
+}
+
+a {
+    color: #64bcf4; /* Warna tautan "Log in" */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5bacdf; /* Warna tautan saat dihover */
+}
